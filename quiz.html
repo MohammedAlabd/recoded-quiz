@@ -2,36 +2,42 @@
 <html lang="en">
 
 <head>
-    <title>Muhammad Alabd</title>
-
+    <title  id="home">Muhammad Alabd</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+        }
+    </style>
 
 </head>
 
 <body>
-    <header>My name is Mohammed</header>
+    <header>My name is <strong>Mohammed</strong> </header>
     <nav>
         <ul>
             <li>
-                <a href="#"> Home </a>
+                <a href="#home"> Home </a>
             </li>
             <li>
-                <a href="#"> Blog</a>
+                <a href="#blog"> Blog</a>
             </li>
             <li>
-                <a href="#"> Services</a>
+                <a href="#services"> Services</a>
             </li>
             <li>
-                <a href="#"> Testimonies</a>
+                <a href="#testimonies"> Testimonies</a>
             </li>
             <li>
-                <a href="#"> Meet our team</a>
+                <a href="#team"> Meet our team</a>
             </li>
             <li>
-                <a href="#">Contact Us </a>
+                <a href="#contact">Contact Us </a>
             </li>
         </ul>
     </nav>
-    <section>
+    <section id="blog">
         <h2>My Blog Posts</h2>
         <article>
             <h2>Ahmed</h2>
@@ -57,7 +63,7 @@
         </article>
         <aside>
             <h2>Top posts</h2>
-            <ul >
+            <ul>
                 <li>
                     <a href="#">first post</a>
                 </li>
@@ -68,15 +74,64 @@
         </aside>
 
     </section>
-    <section>
+    <section id="services">
         <h2>Services</h2>
         <article>
             <h3>Build a super website</h3>
-            <p>you shoud do it by your self.....<a href="#">Learn more</a></p>
-            
+            <p>you shoud do it by your self.....
+                <a href="#">Learn more</a>
+            </p>
+
         </article>
     </section>
+    <section id="testimonies">
+        <h2>Testimonies</h2>
+        <figure>
+            <img src="http://pngtransparent.com/images/man-png-594x600_434baf86.png" alt="John Doe’s picture" width="25%" height="25%">
+            <br>
+            <caption>John Doe’s picture</caption>
+        </figure>
+        <h2>John Doe</h2>
+        <p>John Doe’s Testimony (ex: “Never worked with a professional before, but now I can proudly say I have!”)</p>
+    </section >
+    <section id="team">
+        <i>Meet our team</i>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td>Job</td>
+            </tr>
+            <tr>
+                <td>Mustafa</td>
+                <td>Fellow</td>
+            </tr>
+            <tr>
+                <td>Burak</td>
+                <td>Fellow</td>
+            </tr>
+            <tr>
+                <td>Maan</td>
+                <td>Fellow</td>
+            </tr>
+        </table>
+    </section>
+    <section id="contact">
+        <h2>Contact us</h2>
+        <form action="#" >
+            <input type="text" value="Name">
+            <input type="text" value="Email">
+            <input type="text" value="Message"> <br>
+            <input type="radio" name="Pleas chose" value="job"> You’re looking for a job<br>
+            <input type="radio" name="Pleas chose" value="service"> You’re looking for a service<br>
+        </form>
+    </section>
+    <div id="us">
+        <a href="#">Facebook</a> <br>
+        <a href="#">insta</a><br>
+        <a href="#">E-mail</a>
 
+
+    </div>
 
 </body>
 
